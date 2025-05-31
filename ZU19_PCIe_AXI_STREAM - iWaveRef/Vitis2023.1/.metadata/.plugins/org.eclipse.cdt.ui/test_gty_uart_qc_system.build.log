@@ -1,0 +1,10 @@
+22:57:03 **** Build of configuration Debug for project test_gty_uart_qc_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 61934 C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/QC_platform/export/QC_platform/QC_platform.xpfm standalone_domain C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/test_gty_uart_qc_system/Debug/system.bif
+sdcard_gen --xpfm C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/QC_platform/export/QC_platform/QC_platform.xpfm --sys_config QC_platform --bif C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/test_gty_uart_qc_system/Debug/system.bif --bitstream C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/test_gty_uart_qc/_ide/bitstream/QC_IntegrationTest_wrapper.bit --elf C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/test_gty_uart_qc/Debug/test_gty_uart_qc.elf,psu_cortexa53_0
+creating BOOT.BIN using C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/test_gty_uart_qc/_ide/bitstream/QC_IntegrationTest_wrapper.bit
+Running C:/Xilinx/Vitis/2023.1/bin/bootgen -arch zynqmp -image C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/test_gty_uart_qc_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+22:57:13 Build Finished (took 9s.963ms)
+

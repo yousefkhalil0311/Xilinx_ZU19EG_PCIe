@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="test_gty_uart_qc_system" platform="C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/QC_platform/export/QC_platform/QC_platform.xpfm" platformUID="xilinx:iw-g35m-19eg-4e004g-e008g-lie::0.0(custom)" sysConfig="QC_platform" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.40419411">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="test_gty_uart_qc" domainName="standalone_domain" domainPrettyName="standalone on psu_cortexa53_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="test_gty_uart_qc" domainName="standalone_domain" domainPrettyName="standalone on psu_cortexa53_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.1048648843">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="test_gty_uart_qc" domainName="standalone_domain" domainPrettyName="standalone on psu_cortexa53_0" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

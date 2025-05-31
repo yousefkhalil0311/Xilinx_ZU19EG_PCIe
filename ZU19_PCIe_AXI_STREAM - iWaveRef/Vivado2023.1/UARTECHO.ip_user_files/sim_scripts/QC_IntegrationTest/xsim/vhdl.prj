@@ -1,0 +1,16 @@
+vhdl xil_defaultlib  \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_proc_sys_reset_0_0/sim/QC_IntegrationTest_proc_sys_reset_0_0.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_axi_quad_spi_0_0/sim/QC_IntegrationTest_axi_quad_spi_0_0.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_axi_gpio_0_0/sim/QC_IntegrationTest_axi_gpio_0_0.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_complex_signal_gener_0_0/sim/QC_IntegrationTest_complex_signal_gener_0_0.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_util_ds_buf_1/util_ds_buf.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_util_ds_buf_1/sim/QC_IntegrationTest_util_ds_buf_1.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_ila_0_1/sim/QC_IntegrationTest_ila_0_1.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_ila_0_2/sim/QC_IntegrationTest_ila_0_2.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_util_ds_buf_2/sim/QC_IntegrationTest_util_ds_buf_2.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_util_ds_buf1_0/sim/QC_IntegrationTest_util_ds_buf1_0.vhd" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_util_ds_buf1_1/sim/QC_IntegrationTest_util_ds_buf1_1.vhd" \
+"../../../bd/QC_IntegrationTest/sim/QC_IntegrationTest.vhd" \
+
+# Do not sort compile order
+nosort

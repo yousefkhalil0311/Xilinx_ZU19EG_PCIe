@@ -1,0 +1,26 @@
+00:17:22 **** Incremental Build of configuration Debug for project test_gty_uart_qc ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/QC_platform/export/QC_platform/sw/QC_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/QC_platform/export/QC_platform/sw/QC_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: test_gty_uart_qc.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/QC_platform/export/QC_platform/sw/QC_platform/standalone_domain/bsplib/lib -o "test_gty_uart_qc.elf"  ./src/RegisterMaps.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_gty_uart_qc.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size test_gty_uart_qc.elf  |tee "test_gty_uart_qc.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  48486	   4936	  20922	  74344	  12268	test_gty_uart_qc.elf
+'Finished building: test_gty_uart_qc.elf.size'
+' '
+
+00:17:24 Build Finished (took 1s.897ms)
+

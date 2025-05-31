@@ -1,0 +1,62 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/ec67/hdl" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/f805/hdl" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/03b2/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/8713/hdl" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/1b7e/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/122e/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/affe/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/20d0/hdl/verilog" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_zynq_ultra_ps_e_0_0/sim/QC_IntegrationTest_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/ip_0/sim/gtwizard_ultrascale_v1_7_gthe4_channel.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/ip_0/sim/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_gthe4_channel_wrapper.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/ip_0/sim/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_gtwizard_gthe4.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/ip_0/sim/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_gtwizard_top.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/ip_0/sim/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gtwizard_top.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_phy_ff_chain.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_phy_pipeline.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_bram_16k_int.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_bram_16k.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_bram_32k.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_bram_4k_int.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_bram_msix.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_bram_rep_int.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_bram_rep.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_bram_tph.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_bram.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_gt_channel.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_gt_common.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_phy_clk.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_phy_rst.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_phy_rxeq.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_phy_txeq.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_sync_cell.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_sync.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_cdr_ctrl_on_eidle.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_receiver_detect_rxterm.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_gt_phy_wrapper.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_init_ctrl.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_pl_eq.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_vf_decode.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_pipe.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_phy_top.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_seqnum_fifo.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_sys_clk_gen_ps.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source/QC_IntegrationTest_xdma_0_0_pcie4_ip_pcie4_uscale_core_top.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/sim/QC_IntegrationTest_xdma_0_0_pcie4_ip.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_1/sim/xdma_v4_1_23_blk_mem_64_reg_be.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_2/sim/xdma_v4_1_23_blk_mem_64_noreg_be.v" \
+
+sv xil_defaultlib --include "C:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/ec67/hdl" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/f805/hdl" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/03b2/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/8713/hdl" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/1b7e/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/122e/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/affe/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/20d0/hdl/verilog" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/xdma_v4_1/hdl/verilog/QC_IntegrationTest_xdma_0_0_dma_bram_wrap.sv" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/xdma_v4_1/hdl/verilog/QC_IntegrationTest_xdma_0_0_dma_bram_wrap_1024.sv" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/xdma_v4_1/hdl/verilog/QC_IntegrationTest_xdma_0_0_dma_bram_wrap_2048.sv" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/xdma_v4_1/hdl/verilog/QC_IntegrationTest_xdma_0_0_core_top.sv" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/sim/QC_IntegrationTest_xdma_0_0.sv" \
+
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.1/data/xilinx_vip/include" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/ec67/hdl" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/f805/hdl" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ip/QC_IntegrationTest_xdma_0_0/ip_0/source" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/03b2/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/8713/hdl" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/1b7e/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/122e/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/affe/hdl/verilog" --include "../../../../UARTECHO.gen/sources_1/bd/QC_IntegrationTest/ipshared/20d0/hdl/verilog" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xlconcat_0_0/sim/QC_IntegrationTest_xlconcat_0_0.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xlconstant_0_0/sim/QC_IntegrationTest_xlconstant_0_0.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xlconstant_1_0/sim/QC_IntegrationTest_xlconstant_1_0.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xlconstant_2_0/sim/QC_IntegrationTest_xlconstant_2_0.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_xbar_1/sim/QC_IntegrationTest_xbar_1.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_axis_data_fifo_0_0/sim/QC_IntegrationTest_axis_data_fifo_0_0.v" \
+"../../../bd/QC_IntegrationTest/ip/QC_IntegrationTest_auto_pc_0/sim/QC_IntegrationTest_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

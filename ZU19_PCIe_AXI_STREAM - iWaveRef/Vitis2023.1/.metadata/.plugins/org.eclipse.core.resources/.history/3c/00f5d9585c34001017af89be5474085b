@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="test_gty_uart_qc" location="C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/test_gty_uart_qc" platform="C:/Xilinx/Projects/QC_UART_TEST/Vitis2023.1/QC_platform/export/QC_platform/QC_platform.xpfm" platformUID="xilinx:iw-g35m-19eg-4e004g-e008g-lie::0.0(custom)" systemProject="test_gty_uart_qc_system" sysConfig="QC_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="ffa5f6f14f67d3ff04b7c724e5022918">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.685064967">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.947669435" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
