@@ -1,34 +1,36 @@
+set_property CONFIG_VOLTAGE 1.8 [current_design]
+
 #uart
-set_property  -quiet -dict { PACKAGE_PIN A17    IOSTANDARD LVCMOS18                                    }       [get_ports  {uart_out_tx}  ];       
-set_property  -quiet -dict { PACKAGE_PIN B17    IOSTANDARD LVCMOS18                                    }       [get_ports  {uart_in_rx}  ];       
+set_property -dict {PACKAGE_PIN A17 IOSTANDARD LVCMOS18} [get_ports uart_out_tx]
+set_property -dict {PACKAGE_PIN B17 IOSTANDARD LVCMOS18} [get_ports uart_in_rx]
 
 #spi
-set_property  -quiet -dict { PACKAGE_PIN A5    IOSTANDARD LVCMOS18                                    }       [get_ports  {io1_i_0}  ];       
-set_property  -quiet -dict { PACKAGE_PIN B2    IOSTANDARD LVCMOS18                                    }       [get_ports  {io0_o_0}  ];       
-set_property  -quiet -dict { PACKAGE_PIN B1    IOSTANDARD LVCMOS18                                    }       [get_ports  {sck_o_0}  ];       
-set_property  -quiet -dict { PACKAGE_PIN A4    IOSTANDARD LVCMOS18                                    }       [get_ports  {ss_o_0[0]}  ];       
-set_property  -quiet -dict { PACKAGE_PIN J18    IOSTANDARD LVCMOS18                                    }       [get_ports  {RSTB[0]}  ];       
+set_property -dict {PACKAGE_PIN A5 IOSTANDARD LVCMOS18} [get_ports io1_i_0]
+set_property -dict {PACKAGE_PIN B2 IOSTANDARD LVCMOS18} [get_ports io0_o_0]
+set_property -dict {PACKAGE_PIN B1 IOSTANDARD LVCMOS18} [get_ports sck_o_0]
+set_property -dict {PACKAGE_PIN A4 IOSTANDARD LVCMOS18} [get_ports {ss_o_0[0]}]
+set_property -dict {PACKAGE_PIN J18 IOSTANDARD LVCMOS18} [get_ports {RSTB[0]}]
 
-set_property         -dict { PACKAGE_PIN AD7                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[0]}];  #GTHTXN3_227 
-set_property         -dict { PACKAGE_PIN AD8                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[0]}];  #GTHTXP3_227 
-set_property         -dict { PACKAGE_PIN AE5                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[1]}];  #GTHTXN2_227 
-set_property         -dict { PACKAGE_PIN AE6                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[1]}];  #GTHTXP2_227 
-set_property         -dict { PACKAGE_PIN AF7                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[2]}];  #GTHTXN1_227 
-set_property         -dict { PACKAGE_PIN AF8                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[2]}];  #GTHTXP1_227 
-set_property         -dict { PACKAGE_PIN AG5                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[3]}];  #GTHTXN0_227 
-set_property         -dict { PACKAGE_PIN AG6                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[3]}];  #GTHTXP0_227 
+set_property -dict {PACKAGE_PIN AD7} [get_ports {pcie_7x_mgt_rtl_0_txn[0]}]
+set_property -dict {PACKAGE_PIN AD8} [get_ports {pcie_7x_mgt_rtl_0_txp[0]}]
+set_property         -dict { PACKAGE_PIN AE5                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[1]}];  #GTHTXN2_227
+set_property         -dict { PACKAGE_PIN AE6                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[1]}];  #GTHTXP2_227
+set_property         -dict { PACKAGE_PIN AF7                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[2]}];  #GTHTXN1_227
+set_property         -dict { PACKAGE_PIN AF8                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[2]}];  #GTHTXP1_227
+set_property         -dict { PACKAGE_PIN AG5                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[3]}];  #GTHTXN0_227
+set_property         -dict { PACKAGE_PIN AG6                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[3]}];  #GTHTXP0_227
 
-set_property         -dict { PACKAGE_PIN AH7                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[4]}];  #GTHTXN3_226 
-set_property         -dict { PACKAGE_PIN AH8                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[4]}];  #GTHTXP3_226 
-set_property         -dict { PACKAGE_PIN AJ5                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[5]}];  #GTHTXN2_226 
-set_property         -dict { PACKAGE_PIN AJ6                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[5]}];  #GTHTXP2_226 
-set_property         -dict { PACKAGE_PIN AK7                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[6]}];  #GTHTXN1_226 
-set_property         -dict { PACKAGE_PIN AK8                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[6]}];  #GTHTXP1_226 
-set_property         -dict { PACKAGE_PIN AL5                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[7]}];  #GTHTXN0_226 
-set_property         -dict { PACKAGE_PIN AL6                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[7]}];  #GTHTXP0_226 
+set_property         -dict { PACKAGE_PIN AH7                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[4]}];  #GTHTXN3_226
+set_property         -dict { PACKAGE_PIN AH8                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[4]}];  #GTHTXP3_226
+set_property         -dict { PACKAGE_PIN AJ5                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[5]}];  #GTHTXN2_226
+set_property         -dict { PACKAGE_PIN AJ6                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[5]}];  #GTHTXP2_226
+set_property         -dict { PACKAGE_PIN AK7                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[6]}];  #GTHTXN1_226
+set_property         -dict { PACKAGE_PIN AK8                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[6]}];  #GTHTXP1_226
+set_property         -dict { PACKAGE_PIN AL5                                                        } [get_ports {pcie_7x_mgt_rtl_0_txp[7]}];  #GTHTXN0_226
+set_property         -dict { PACKAGE_PIN AL6                                                        } [get_ports {pcie_7x_mgt_rtl_0_txn[7]}];  #GTHTXP0_226
 
-set_property         -dict { PACKAGE_PIN AE1                                                        } [get_ports {pcie_7x_mgt_rtl_0_rxn[0]}];  #GTHRXN3_227
-set_property         -dict { PACKAGE_PIN AE2                                                        } [get_ports {pcie_7x_mgt_rtl_0_rxp[0]}];  #GTHRXP3_227
+set_property -dict {PACKAGE_PIN AE1} [get_ports {pcie_7x_mgt_rtl_0_rxn[0]}]
+set_property -dict {PACKAGE_PIN AE2} [get_ports {pcie_7x_mgt_rtl_0_rxp[0]}]
 set_property         -dict { PACKAGE_PIN AF3                                                        } [get_ports {pcie_7x_mgt_rtl_0_rxp[1]}];  #GTHRXN2_227
 set_property         -dict { PACKAGE_PIN AF4                                                        } [get_ports {pcie_7x_mgt_rtl_0_rxn[1]}];  #GTHRXP2_227
 set_property         -dict { PACKAGE_PIN AG1                                                        } [get_ports {pcie_7x_mgt_rtl_0_rxp[2]}];  #GTHRXN1_227
@@ -45,11 +47,13 @@ set_property         -dict { PACKAGE_PIN AL1                                    
 set_property         -dict { PACKAGE_PIN AM4                                                        } [get_ports {pcie_7x_mgt_rtl_0_rxp[7]}];  #GTHRXP0_226
 set_property         -dict { PACKAGE_PIN AM3                                                        } [get_ports {pcie_7x_mgt_rtl_0_rxn[7]}];  #GTHRXN0_226
 
-set_property         -dict { PACKAGE_PIN E9    IOSTANDARD LVCMOS18                                } [get_ports reset_rtl_0]
-set_property         -dict { PACKAGE_PIN AD12                                                       } [get_ports diff_clock_rtl_0_clk_p ];       #GTREFCLK0P_227]                        
-set_property         -dict { PACKAGE_PIN AD11                                                       } [get_ports diff_clock_rtl_0_clk_n ];       #GTREFCLK0N_227]                       
+set_property -dict {PACKAGE_PIN E9 IOSTANDARD LVCMOS18} [get_ports reset_rtl_0]
+set_property         -dict { PACKAGE_PIN AD12                                                       } [get_ports {diff_clock_rtl_0_clk_p[0]} ];       #GTREFCLK0P_227]
+set_property         -dict { PACKAGE_PIN AD11                                                       } [get_ports {diff_clock_rtl_0_clk_n[0]} ];       #GTREFCLK0N_227]
 
 
+
+create_clock -period 10.000 [get_ports diff_clock_rtl_0_clk_p]
 #####################################################################################
 # PL DDR4 - 1
 #####################################################################################
@@ -251,3 +255,12 @@ set_property PACKAGE_PIN AV21 [get_ports {C0_DDR4_0_dq[61]}]
 set_property PACKAGE_PIN AU20 [get_ports {C0_DDR4_0_dq[62]}]
 set_property PACKAGE_PIN AV19 [get_ports {C0_DDR4_0_dq[63]}]
 
+
+#set_property DIFF_TERM_ADV TERM_NONE [get_ports {diff_clock_rtl_0_clk_p[0]}]
+set_property IOSTANDARD LVDS [get_ports {diff_clock_rtl_0_clk_p[0]}];
+set_property IOSTANDARD LVCMOS18 [get_ports {reset_rtl_0}];
+
+set_property C_CLK_INPUT_FREQ_HZ 300000000 [get_debug_cores dbg_hub]
+set_property C_ENABLE_CLK_DIVIDER false [get_debug_cores dbg_hub]
+set_property C_USER_SCAN_CHAIN 1 [get_debug_cores dbg_hub]
+connect_debug_port dbg_hub/clk [get_nets clk]
